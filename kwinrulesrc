@@ -1,0 +1,24 @@
+[General]
+count=3
+rules=e573e9cb-fce0-48f1-b5a5-914bc6e9d81d,e87d0f0e-70e9-408a-8030-848268f6fbda,ef95386e-02c5-4cd0-bc23-7f067798df7f
+
+[e573e9cb-fce0-48f1-b5a5-914bc6e9d81d]
+Description=Fix windows starting on wrong screen
+ignoregeometry=true
+ignoregeometryrule=2
+types=1
+
+[e87d0f0e-70e9-408a-8030-848268f6fbda]
+Description=No terminal title bar
+noborder=true
+noborderrule=3
+wmclass=footclient
+wmclassmatch=1
+
+[ef95386e-02c5-4cd0-bc23-7f067798df7f]
+Description=No factorio title bar
+noborder=true
+noborderrule=3
+wmclass=factorio
+wmclassmatch=1
+

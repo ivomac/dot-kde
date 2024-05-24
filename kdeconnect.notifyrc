@@ -1,0 +1,3 @@
+[Event/notification]
+Action=Popup|Sound
+Sound=file:///usr/share/sounds/ocean/stereo/message-new-instant.oga
